@@ -1,3 +1,6 @@
+@import url("components/profile_header.css");
+@import url("components/card.css");
+
 body {
   background-color: rgb(240, 240, 240);
   font-family: 'Open-Sans', sans-serif;
@@ -69,17 +72,8 @@ a:hover {
 }
 
 .container {
-  width: 500px;   /* Set width */
+  width: 700px;   /* Set width */
   margin: 0 auto;
-}
-
-.card-white {
-  border: 1px solid rgb(225, 225, 225);
-  border-radius: 5px;
-  box-shadow: 1px 1px 1px rgb(230, 230, 230);
-  margin: 15px auto;
-  background: white;
-  padding: 30px;
 }
 
 .list-inline > li {
